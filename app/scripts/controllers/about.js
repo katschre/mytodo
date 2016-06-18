@@ -26,5 +26,7 @@ angular.module('mytodoApp')
 
     $scope.myFunc = function () {
       $scope.formDetails = $scope.master;
-    }
+    };
+
+    
   }]);

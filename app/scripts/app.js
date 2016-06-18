@@ -28,6 +28,10 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/errandMapper', {
+        templateUrl: 'views/errandMapper.html',
+        controller: 'errandMapperCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

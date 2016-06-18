@@ -20,12 +20,14 @@
     <label><input type="radio" ng-model="user.listType" value="work" />work</label>
     <label><input type="radio" ng-model="user.listType" value="home" />home</label>
     <label><input type="radio" ng-model="user.listType" value="play" />play</label>
+    <label><input type="radio" ng-model="user.listType" value="errandMapper" />errand mapper</label>
     <br></br>
     <input type="button" class="btn btn-sm btn-danger" ng-click="reset()" value="Reset" />
     <input type="submit" class="btn btn-sm btn-success" ng-click="update(user)" value="Save" />
     <hr>
   </form>
   <pre ng-show="this.master">Let's make a {{master.listType}} todo list, {{user.name}} :) </pre>
+  <a ng-href="#/errandMapper"> <input type="button" ng-show="this.master" class="btn btn-sm btn-success" value="Let's Ride!" /></a>
 </div>
 
 
