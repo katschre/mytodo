@@ -28,6 +28,10 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/listCreator', {
+        templateUrl: 'views/listCreator.html',
+        controller: 'listCreatorCtrl'
+      })
       .when('/errandMapper', {
         templateUrl: 'views/errandMapper.html',
         controller: 'errandMapperCtrl'
